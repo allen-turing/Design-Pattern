@@ -1,11 +1,13 @@
-namespace StrategyPattern;
+using StrategyPattern.Ducks.Quack.Fly;
+
+namespace StrategyPattern.Ducks;
 
 public class ModelDuck : Duck
 {
     public ModelDuck()
     {
         flyBehavior = new FlyNoWay();
-        quackBehavior = new Quack();
+        quackBehavior = new Quack.Quack();
     }
     
 }

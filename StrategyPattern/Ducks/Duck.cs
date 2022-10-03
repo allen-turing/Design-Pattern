@@ -1,4 +1,7 @@
-namespace StrategyPattern;
+using StrategyPattern.Ducks.Quack;
+using StrategyPattern.Ducks.Quack.Fly;
+
+namespace StrategyPattern.Ducks;
 
 public abstract class Duck
 {

@@ -1,4 +1,4 @@
-namespace StrategyPattern;
+namespace StrategyPattern.Ducks.Quack.Fly;
 
 public class FlyWithWIngs: IFlyBehavior
 {

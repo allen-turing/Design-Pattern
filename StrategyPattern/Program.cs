@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using StrategyPattern;
+using StrategyPattern.Ducks;
+using StrategyPattern.Ducks.Quack;
+using StrategyPattern.Ducks.Quack.Fly;
 
 Console.WriteLine("-------------STRATEGY PATTERN----------");
 Console.WriteLine("--------------For Model Duck-----------");
