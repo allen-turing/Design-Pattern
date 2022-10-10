@@ -1,12 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveDuck", "NaiveDuck\NaiveDuck.csproj", "{52F5DB20-7A65-49C5-AFE3-11D7A12B38EF}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaiveDuck", "NaiveDuck\NaiveDuck.csproj", "{52F5DB20-7A65-49C5-AFE3-11D7A12B38EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{64634D28-E8D4-4B0F-A1AA-B69BFCDFCC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{64634D28-E8D4-4B0F-A1AA-B69BFCDFCC5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{276EFE71-C30D-485E-B58C-B2C7C5C1898B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{276EFE71-C30D-485E-B58C-B2C7C5C1898B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{B72D995A-A602-439F-9B2F-E926CEBFB86A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{B72D995A-A602-439F-9B2F-E926CEBFB86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{14249FFA-94CC-4E9A-BAEB-7B74D9345F5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,15 @@ Global
 		{B72D995A-A602-439F-9B2F-E926CEBFB86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72D995A-A602-439F-9B2F-E926CEBFB86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B72D995A-A602-439F-9B2F-E926CEBFB86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14249FFA-94CC-4E9A-BAEB-7B74D9345F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14249FFA-94CC-4E9A-BAEB-7B74D9345F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14249FFA-94CC-4E9A-BAEB-7B74D9345F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14249FFA-94CC-4E9A-BAEB-7B74D9345F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCE3AE4C-352A-4D05-985C-2C315ADC4312}
 	EndGlobalSection
 EndGlobal
